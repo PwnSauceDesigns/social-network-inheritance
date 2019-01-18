@@ -15,7 +15,7 @@ def test_post_set_user():
 
 
 def test_post_string_representation():
-    user = UserFactory(first_name='Kevin', last_name='Watson')  # why is User not raising error when 'email' paramater is left out???
+    user = UserFactory(first_name='Kevin', last_name='Watson')
     post1 = TextPostFactory()
     post2 = PicturePostFactory()
     post3 = CheckInPostFactory()

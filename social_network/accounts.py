@@ -10,7 +10,6 @@ class User(object):
         self.posts.append(post)
 
     def get_timeline(self):
-        # return class objects from followed users posts
         answer = []
         for person in self.following:
             answer += person.posts
